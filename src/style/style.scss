@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E7F6FF;
+}
+
+li{
+    list-style-type: none;
+}
+
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+input{
+    border: none;
+    outline: none;
+    border: 1px solid #F3F3F3;
+    border-radius: 10px;
+    height: 45px;
+    width: 250px;
+    background: url('../resources/img/search.svg') no-repeat scroll 18px 15px;
+    padding-left: 43px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #C4C4C4;
+}
+
+input::placeholder{
+    color: #C4C4C4;
+}
+

@@ -1,0 +1,27 @@
+.content{
+    background-color: #FFFFFF;
+    margin: 39px 60px 0 60px;
+    &__title{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 36px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        color: #000000;
+    }
+    &__list{
+        display: grid;
+        grid-template-columns: 650px 425px;
+        column-gap: 25px;
+        &-empty{
+            background-color: red;
+        }
+    }
+}
+
+
+
+
+
+

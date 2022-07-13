@@ -1,0 +1,49 @@
+.order{
+    height: 100vh;
+    &-header{
+        display: flex;
+        margin: 44px 0 0 60px;
+        & img{
+            margin-right: 21px;
+            cursor: pointer;
+        }
+    }
+    &-empty{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        & img{
+            margin-bottom: 24px;
+        }
+        & p{
+            margin-top: 11px;
+            opacity: 0.4;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+        }
+        & button{
+            width: 325px;
+            height: 55px;
+            margin-top: 70px;
+            background: #9DD558;
+            border-radius: 18px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+        }
+    }
+    &-cards{
+        margin: 40px 0 0 60px;
+        display: grid;
+        grid-template-columns: repeat(4, 210px);
+        column-gap: 40px;
+        row-gap: 40px;
+    }
+}

@@ -1,0 +1,39 @@
+.banner{
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+    background: #F4EFE9;
+    border-radius: 20px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    &__wrapper{
+        &-brends{
+            margin: 16px 0 0 20px;
+        }
+        &-text{
+            margin: 32px 0 0 61px; 
+            font-weight: 700;
+            font-size: 38px;
+            line-height: 46px;
+            &-green{
+                color: #8BB43C;
+            }
+            &-black{
+                color: black;
+            }
+        }
+        &-btn{
+            width: 177.46px;
+            height: 47.09px;
+            background: #A5D364;
+            border-radius: 110px;
+            margin: 10.45px 0 0 60px;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+    }
+}

@@ -1,0 +1,56 @@
+.header{
+    &-wrapper{
+        height: 128px;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
+        border-radius: 20px;
+        margin-top: 85px;
+        display: flex;
+        justify-content: space-between;
+        &__logo{
+            display: flex;
+            justify-content: space-between;
+            margin: 43px 0 0 45px;
+            &-img{
+                width: 40px;
+                height: 40px;
+            }
+            &-text{
+                margin-left: 16px;
+                &-name{
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 24px;
+                    text-transform: uppercase;
+                    color: #000000;
+                }
+                &-about{
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #9D9D9D;
+                }
+            }
+        }
+        &__menu{
+            display: flex;
+            justify-content: space-between;
+            margin: 55px 65px 0 0;
+            &-list{
+                margin-left: 16px;
+                cursor: pointer;
+            }
+            &-img{
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+    &-bottomline{
+        display: block;
+        height: 0px;
+        width: 100%;
+        border: 1px solid #EAEAEA;
+    }
+}
+
+
